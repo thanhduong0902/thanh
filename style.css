@@ -45,20 +45,13 @@ li{
   flex-direction:row;
   justify-content:space-around;
 }
-.type{
-  margin-top:10px;
-}
-section{
-  background-color:lightgray;
-  border:2px solid lightgray;
-  border-radius:0.25em;
-}
 h3{
   margin-top: 0;
     margin-bottom: 0.5rem;
     font-weight: 500;
     line-height: 1.2;
   display:block;
+  font-size: calc(1.3rem + .6vw);
 }
 .list-items{
   display:grid;
@@ -115,4 +108,10 @@ p{
 }
 .options{
   text-align:center;
+}
+button{
+  background-color:red;
+  border:1px solid red;
+  border-radius:0.25em;
+  
 }
