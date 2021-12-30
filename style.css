@@ -1,4 +1,14 @@
 .banner{
-  max-width:100%;
-  height:auto
+  width:100%;
+  height:auto;
+}
+header{
+  
+}
+body{
+  margin:0;
+}
+.nav{
+  display:flex;
+  justify
 }
