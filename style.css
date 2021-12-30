@@ -9,6 +9,7 @@ header{
 
 body{
   margin:0;
+      font-family: sans-serif;
 }
 .nav{
   display:flex;
@@ -20,9 +21,17 @@ body{
   height:50px;
   color:#717171;
   box-sizing:border-box;
+  cursor: pointer;
 }
 .center{
   justify-content:center;
   align-items:center;
   display:flex;
+}
+a{
+  text-decoration:none;
+  color:#717171;
+}
+*{
+  box-sizing:border-box;
 }
