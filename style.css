@@ -1,6 +1,6 @@
 header{
-  margin-right:10px
   border:1px solid gray;
+  margin-right:10px;
 }
 .banner{
   width:100%;
@@ -12,5 +12,16 @@ body{
 }
 .nav{
   display:flex;
+  flex-direction:left;
+  justify-content:space-around;
+  font-size:26px;
+  width:50%;
+}
+.nav-content{
+  height:50px;
   
+}
+.center{
+  justify-content:center;
+  align-items:center;
 }
