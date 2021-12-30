@@ -35,7 +35,6 @@ a{
 }
 li{
   list-style:none;
-  border
 }
 .main{
   margin-top:10px;
@@ -43,6 +42,8 @@ li{
   flex-direction:row;
   justify-content:space-around;
 }
+
+
 h3{
   margin-top: 0;
     margin-bottom: 0.5rem;
