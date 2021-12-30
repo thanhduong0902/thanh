@@ -102,16 +102,24 @@ h5 {
   color:red;
   font-size:20px;
 }
-p{
+p,th{
   text-align:center;
   color:red;
 }
 .options{
   text-align:center;
 }
+table{
+  width:100%;
+  margin-top:10px;
+  border-collapse:collapse;
+}
 button{
   background-color:red;
   border:1px solid red;
   border-radius:0.25em;
-  
+  color:white;
+}
+th,td{
+  text-align:center;
 }
