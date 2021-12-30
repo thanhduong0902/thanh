@@ -42,11 +42,20 @@ li {
   justify-content: space-around;
 }
 aside {
-  width: 30%;
+  width: 35%;
   height: auto;
+}
+section{
+  background-color:lightblue;
 }
 .type {
   border: 1px solid black;
+  border-radius:0.25em;
+}
+.source{
+  border: 1px solid black;
+  margin-top:10px;
+  border-radius:0.25em;
 }
 h3 {
   margin-top: 0;
@@ -72,6 +81,7 @@ h3 {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+ 
 }
 .img-item {
   max-width: 100px;
