@@ -1,6 +1,8 @@
 header{
   border:1px solid gray;
-  margin-right:10px;
+}
+.nav{
+  border:1px solid gray;
 }
 .banner{
   width:100%;
@@ -113,13 +115,17 @@ table{
   width:100%;
   margin-top:10px;
   border-collapse:collapse;
+  height:500px;
+  margin-bottom:10px
 }
 button{
   background-color:red;
   border:1px solid red;
   border-radius:0.25em;
   color:white;
+  cursor:pointer;
 }
 th,td{
   text-align:center;
+  border:1px solid gray;
 }
