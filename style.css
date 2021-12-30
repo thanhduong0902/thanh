@@ -1,9 +1,4 @@
-header{
-  border:1px solid gray;
-}
-.nav{
-  border:1px solid gray;
-}
+
 .banner{
   width:100%;
   height:auto;
@@ -16,13 +11,14 @@ body{
 .nav{
   display:flex;
   flex-direction:left;
-  justify-content:space-around;
-  width:50%;
+  border:1px solid gray;
 }
 .nav-content{
   height:50px;
   color:#717171;
   box-sizing:border-box;
+  width:150px;
+  padding-left:20px;
 }
 .center{
   justify-content:center;
