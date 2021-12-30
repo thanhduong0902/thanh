@@ -46,7 +46,12 @@ li{
   justify-content:space-around;
 }
 .type{
-  border:1px solid gray;
+  margin-top:10px;
+}
+section{
+  background-color:lightgray;
+  border:2px solid lightgray;
+  border-radius:0.25em;
 }
 h3{
   margin-top: 0;
@@ -89,11 +94,15 @@ h3{
   border: 1px solid blue;
   padding: 0.375rem 0.75rem;
   color:white;
-  backroundco
+  background-color:blue;
+  border-radius:0.25em;
 }
 .mua{
   border: 1px solid green;
   padding: 0.375rem 0.75rem;
+  background-color:green;
+  color:white;
+  border-radius:0.25em;
 }
 h5 {
   text-align:center;
